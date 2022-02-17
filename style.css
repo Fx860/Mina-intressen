@@ -7,32 +7,63 @@
 
 /* Navbar*/
 
-.navbar {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  background-color: #4c6ca0;
-  border-radius: 5px;
-  overflow: auto;
+nav {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background: #4c6ca0;
+}
+/* ul list*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
 }
 
-.navbar li {
+nav ul li {
+  position: relative;
+  margin: 0 20px 0 0;
+  display: inline-block;
+}
+
+li > a:after {
+  content: " »";
+} /* Ändra detta för att ändra dropdown-symbolen*/
+
+li > a:only-child:after {
+  content: "";
+}
+
+nav ul li a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: px;
+}
+/* färg vid sväva över länken */
+nav ul li a:hover {
+  color: coral;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: #37bc9b;
   float: left;
 }
 
-.navbar li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 15px 20px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-right: 112px;
+nav ul li ul li {
+  width: 100%;
+  border-bottom: 1px solid none;
 }
 
-.navbar li a:hover {
-  background-color: #446190;
-  color: coral;
+nav ul li:hover ul {
+  display: block;
 }
 
 body {
@@ -46,9 +77,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn-hackers {
+.btn {
   display: block;
-  background-color: #446190;
+  background-color: #448790;
   text-decoration: none;
   border-radius: 5px;
   font-size: 40px;
@@ -58,23 +89,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   cursor: pointer;
-  margin-right: 58%;
+  margin-right: 62%;
 }
 
 .moviehacker {
   display: inline-block;
 }
 
-.google {
-  display: block;
-  background-color: #446190;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  cursor: pointer;
-  margin-right: 58%;
-}
+/* Data*/
