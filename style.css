@@ -42,7 +42,7 @@ nav ul li a {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  padding-right: px;
+  padding-right: 5px;
 }
 /* färg vid sväva över länken */
 nav ul li a:hover {
