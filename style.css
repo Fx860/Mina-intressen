@@ -77,12 +77,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn {
+/* med rubiker med länkar & style för film.html  */
+.btn-film {
   display: block;
   background-color: #448790;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 40px;
+  font-size: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -96,4 +97,34 @@ body {
   display: inline-block;
 }
 
-/* Data*/
+/* Blandat-teknik*/
+
+.btn-Blandat-teknik {
+  display: block;
+  background-color: coral;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  margin-right: 62%;
+}
+
+.btn-smart-hem {
+  display: block;
+  background-color: rgb(18, 5, 77);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  margin-right: 62%;
+}
